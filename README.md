@@ -3,6 +3,7 @@ This application categorizes and lists various food items based on multiple attr
 output:
 
 list all the food items:  [
+
   'Apple',       'Banana',         'Orange',
   'Pear',        'Grapefruit',     'Strawberry',
   'Blueberry',   'Raspberry',      'Broccoli',
@@ -18,7 +19,9 @@ list all the food items:  [
   'Almonds',     'Walnuts',        'Peanuts',
   'Cashews'
 ]
+
 list all the food items with category vegetables:  [
+
   { Category: 'Vegetable', foodName: 'Broccoli' },
   { Category: 'Vegetable', foodName: 'Cauliflower' },
   { Category: 'Vegetable', foodName: 'Green Beans' },
@@ -30,7 +33,9 @@ list all the food items with category vegetables:  [
   { Category: 'Vegetable', foodName: 'Carrot' },
   { Category: 'Vegetable', foodName: 'Onion' }
 ]
+
 list all the food items with category fruit:  [
+
   { Category: 'Fruit', foodName: 'Apple' },
   { Category: 'Fruit', foodName: 'Banana' },
   { Category: 'Fruit', foodName: 'Orange' },
@@ -40,7 +45,9 @@ list all the food items with category fruit:  [
   { Category: 'Fruit', foodName: 'Blueberry' },
   { Category: 'Fruit', foodName: 'Raspberry' }
 ]
+
 list all the food items with category protien:  [
+
   { Category: 'Protein', foodName: 'Egg' },
   { Category: 'Protein', foodName: 'Chicken Breast' },
   { Category: 'Protein', foodName: 'Salmon' },
@@ -50,13 +57,17 @@ list all the food items with category protien:  [
   { Category: 'Protein', foodName: 'Lamb' },
   { Category: 'Protein', foodName: 'Shrimp' }
 ]
+
 list all the food items with category nuts:  [
+
   { Category: 'Nuts', foodName: 'Almonds' },
   { Category: 'Nuts', foodName: 'Walnuts' },
   { Category: 'Nuts', foodName: 'Peanuts' },
   { Category: 'Nuts', foodName: 'Cashews' }
 ]
+
 list all the food items with category grains:  [
+
   { Category: 'Grain', foodName: 'Quinoa' },
   { Category: 'Grain', foodName: 'Brown Rice' },
   { Category: 'Grain', foodName: 'Oats' },
@@ -64,13 +75,17 @@ list all the food items with category grains:  [
   { Category: 'Grain', foodName: 'Bread' },
   { Category: 'Grain', foodName: 'Pasta' }
 ]
+
 list all the food items with category dairy:  [
+
   { Category: 'Dairy', foodName: 'Milk' },
   { Category: 'Dairy', foodName: 'Cheese' },
   { Category: 'Dairy', foodName: 'Yogurt' },
   { Category: 'Dairy', foodName: 'Butter' }
 ]
+
 list all the food items with calorie above 100:  [
+
   { Calorie: 105, foodName: 'Banana' },
   { Calorie: 103, foodName: 'Sweet Potato' },
   { Calorie: 161, foodName: 'Potato' },
@@ -93,7 +108,9 @@ list all the food items with calorie above 100:  [
   { Calorie: 567, foodName: 'Peanuts' },
   { Calorie: 553, foodName: 'Cashews' }
 ]
+
 list all the food items with calorie below 100:  [
+
   { Calorie: 95, foodName: 'Apple' },
   { Calorie: 62, foodName: 'Orange' },
   { Calorie: 95, foodName: 'Pear' },
@@ -114,7 +131,9 @@ list all the food items with calorie below 100:  [
   { Calorie: 60, foodName: 'Milk' },
   { Calorie: 59, foodName: 'Yogurt' }
 ]
+
 list all the food items with highest protien content to lowest:  [
+
   { Protiens: 39, foodName: 'Tuna' },
   { Protiens: 31, foodName: 'Chicken Breast' },
   { Protiens: 26, foodName: 'Beef' },
@@ -156,7 +175,9 @@ list all the food items with highest protien content to lowest:  [
   { Protiens: 0.5, foodName: 'Pear' },
   { Protiens: 0.3, foodName: 'Apple' }
 ]
+
 list all the food items with lowest cab content to highest:  [
+
   { Cab: 0, foodName: 'Tuna' },
   { Cab: 0, foodName: 'Chicken Breast' },
   { Cab: 0, foodName: 'Beef' },
@@ -198,3 +219,4 @@ list all the food items with lowest cab content to highest:  [
   { Cab: 49, foodName: 'Bread' },
   { Cab: 66, foodName: 'Oats' }
 ]
+
